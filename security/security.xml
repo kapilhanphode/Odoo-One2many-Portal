@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_mrp_executivess" model="res.groups">
+        <field name="name">Executives</field>
+        <field name="category_id" ref="base.module_category_manufacturing_manufacturing"/>
+    </record>
+
+    <record model="res.groups" id="group_multi_currency_custom">
+        <field name="name">Customer Menu</field>
+    </record>
+</odoo>
